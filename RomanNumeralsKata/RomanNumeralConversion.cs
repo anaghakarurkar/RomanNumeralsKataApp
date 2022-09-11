@@ -19,8 +19,8 @@ namespace RomanNumeralsKata
             RomanNumeral = romanNumeral;
             Number = number;
 
-            _numeralsList = new string[] { "I", "IV", "V", "IX", "X","XL" , "L", "XC", "C", "D", "M" };
-            _numberEquivalents = new int[] { 1, 4, 5, 9, 10, 40,  50, 90,  100, 500, 1000 };
+            _numeralsList = new string[] { "I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "D", "M" };
+            _numberEquivalents = new int[] { 1, 4, 5, 9, 10, 40, 50, 90, 100, 500, 1000 };
 
         }
 
@@ -29,7 +29,6 @@ namespace RomanNumeralsKata
             RomanNumeral = romanNumeral;
 
             string tempNumeral = RomanNumeral;
-
 
             return 4;
         }
@@ -42,11 +41,8 @@ namespace RomanNumeralsKata
             if (number > 3550)
                 return "Number Too Large";
 
-            if (number == 0 || number < 0 )
+            if (number == 0 || number < 0)
                 return $"For Romans {number} did not exist.";
-
-     
-            
 
             while (tempNumber > 0)
             {

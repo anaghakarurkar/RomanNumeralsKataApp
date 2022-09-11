@@ -4,7 +4,7 @@ using FluentAssertions;
 public class Tests
 {
     private RomanNumeralConversion _numeralToNumber;
-    
+
     [SetUp]
     public void Setup()
     {
