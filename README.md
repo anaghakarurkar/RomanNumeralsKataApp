@@ -1,4 +1,7 @@
 # RomanNumeralsKataApp
-This App converts a number to Roman numeral 
-This App converts a Roman numeral to a number
+
+This App converts 
+1. A number to Roman numeral 
+2. A Roman numeral to a number
+
 It also includes NUnit tests
